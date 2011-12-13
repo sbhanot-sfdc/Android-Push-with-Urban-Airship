@@ -1,7 +1,8 @@
 About
 -----
 
-This sample application implements push notifications from Force.com to Android devices using Urban Airship. This  project is a derivation of a [similar project for iOS]( https://github.com/mbotos/Urban-Airship-for-Force.com).
+This sample application implements push notifications from Force.com to Android devices using Urban Airship. The Android application is a simple Case Management app developed using the [Force.com Mobile SDK](http://wiki.developerforce.com/page/MobileSDK). Its shows a list of Cases assigned to the current logged in user. When a new Case is assigned to that user in Salesforce a notification automatically appears in the user's Android device. 
+This  project is a derivation of a [similar project for iOS]( https://github.com/mbotos/Urban-Airship-for-Force.com).
 
 Further details about this application (including a short demo video) can be found here - 
 
@@ -10,7 +11,7 @@ Installation
 
 1. Sign up for an [Urban Airship Account](https://go.urbanairship.com/accounts/register/). 
 
-2. Create a new application in Urban Airship. When creating the application make sure to select the 'Push Notifications Support' checkbox. In the section that opens up when you click that option, enter 'com.salesforce.casemgmt' in the 'Android Package' field. Leave all other fields blank.  
+2. Create a new application in Urban Airship. When creating the application, make sure to select the 'Push Notifications Support' checkbox. In the section that appears when you click that option, enter 'com.salesforce.casemgmt' in the 'Android Package' field. Leave all other fields blank.  
 
 3. Install the Force.com half of this sample application into the target Salesforce Org using this [Unmanaged Package](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t50000000Lims). Note that this sample application is configured by default to connect to a Production/Developer Edition Org. Additional changes will need to be made if you want to run the sample from a Sandbox Org.
 
