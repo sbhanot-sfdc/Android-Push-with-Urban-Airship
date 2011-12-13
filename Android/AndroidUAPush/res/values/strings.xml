@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Android Push Notification</string>
+    <string name="app_name">Android UA Push Sample</string>
+    <string name="oauth_client_id">3MVG92.uWdyphVj5UBk0lbnkUy9Map_rbEMDnFMSozFC8AaYrDHErhJRBKWNrUYmDANffDuyacYdb1FGycDFy</string>
+    <string name="oauth_callback_url">sfdcsample:success</string>
+    <string name="api_version">v23.0</string>
+    <string name="account_type">com.salesforce.casemgmt</string>
+</resources>
