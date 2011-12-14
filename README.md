@@ -4,7 +4,7 @@ About
 This sample application implements push notifications from Force.com to Android devices using Urban Airship. The Android application is a simple Case Management app developed using the [Force.com Mobile SDK](http://wiki.developerforce.com/page/MobileSDK). Its shows a list of Cases assigned to the current logged in user. When a new Case is assigned to that user in Salesforce a notification automatically appears in the user's Android device. 
 This  project is a derivation of a [similar project for iOS]( https://github.com/mbotos/Urban-Airship-for-Force.com).
 
-Further details about this application (including a short demo video) can be found here - 
+Further details about this application (including a short demo video) can be found here - http://blogs.developerforce.com/developer-relations/2011/12/push-notification-for-android-using-urban-airship.html
 
 Installation
 -----------
